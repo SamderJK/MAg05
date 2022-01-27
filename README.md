@@ -8,4 +8,4 @@ The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/air
 
 
 ## Technical Details
-Our application is mainly written in JavaScript, CSS and HTML. It's just a web document transformed into an app for windows via 
+Our application is mainly written in JavaScript, CSS and HTML. It's just a web document transformed into an app for windows via electron.js
