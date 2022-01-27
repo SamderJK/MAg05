@@ -10,8 +10,6 @@ The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/air
 * He is offered one plane a day and he can either take it or not. The offer is only available for 24 hours.
 
 ### Strategy
-```json
-{
-"h": 1
-}
+```math
+1 + 1 = 2
 ```
