@@ -1,0 +1,132 @@
+
+/* Initialisieren von Farben */
+:root {
+    --blue: #46c6e9;
+    --white: #eef5f7;
+    --pink: #de3448;
+    --darkBlue: #265265;
+    --dark: #00071f;
+    --blueGreen: #2f616c;
+    --green: #b7ea32;
+    --goodBlue: #124E9D;
+    --red: #ff0000;
+    --gray: #bababa;
+
+    --gradientBlue: #00ffff;
+    --gradientPink: #ff007a;
+}
+
+/* Für alles gilt: */
+*, body {
+
+    /* Vom Browser voreingestellte Abstände und Maße*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /* Schriftart, Farbe und zentrierte Schrift */
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+    text-align: center;
+
+    /* Bei der Navigation wird der Punkt als Präfix entfernt (Zu vergleichen mit Auflistungen in Word) */
+    list-style: none;
+}
+
+/* Hintergrundfarbe der Seite ist --dark, also ein Dunkelblau (fast Schwarz) */
+body {
+    background-color: var(--dark);
+}
+
+/* Im Kopfbereich werden die Inhalte auf die Fläche aufgeteilt */
+header { display: flex; justify-content: space-between; align-items: center; padding: 25px 10%;}
+
+/* Die Überschrift bekommt eine andere Schriftart als der Rest */
+.logo { font-family: 'Aleo', sans-serif; }
+
+/* Abstand bei jedem Bestandteil der Liste */
+.navigation li { display: inline-block; padding: 0 20px}
+
+/* Der Knopf zum Beenden wird rot und bekommt andere Maße ohne den Rand, der standardmäßig dabei ist */
+#quit { background-color: var(--red); padding: 15px 40px; border: 0; }
+
+/* Die Tabelle wird Grün und bekommt dickere Ränder */
+table, th, td {
+    border: 2px solid var(--gradientBlue);
+    padding: 10px;
+    border-radius: 1em;
+}
+
+/* Das Formular wird zentriert und bekommt einen hellgrauen Hintergrund mit einem Glow-Effekt und abgerundeten Ecken */
+.form {
+    /* position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 70%;
+    height: 70vh;
+    background-color: var(--gray);
+    border-radius: 1em;
+    box-shadow: 5px 5px 8px 8px #bababa; */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 70%;
+    height: 70vh;
+    background: linear-gradient(45deg, #00ffff, #ff007a);
+    border-radius: 1em;
+}
+
+/* Das Eingabefeld bekommt einen leichten Schatten und wird randlos und größer */
+.form input {
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    color: #000;
+    /* border: 5px solid #f1bf0c; */
+    box-shadow: 3px 3px 10px #a0a0a0;
+}
+
+/* Das Anzeigefeld bekommt andere Maße, nachdem es runde Ecken und den dunklen Hintergrund bekommen hat*/
+#demo {
+    width: 55%;
+    height: 80%;
+    font-size: 1em;
+    border: 0;
+    border-radius: 1em;
+    background: rgba(0, 7, 32, 0.7);
+}
+
+/* Die Box im Anzeigfeld zentriert die Tabelle und nimmt das gesamte Feld ein. Sie hat übrigens auch abgerundete Ecken */
+#gb {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 1em;
+}
+
+/* Die Box, die das Eingabefeld etc beinhaltet, teilt alle Bestandteile gleichmäßig ein */
+.inputBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/* Die Sektion, die nur für Eingabe und Knopf da ist, macht ungefähr das Gleiche */
+.submitBox {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Der Knopf "Berechnen" bekommt einen dunklen Hintergrund und wird größer und ohne Rand abgerundet */
+#calc {
+    padding: 15px 40px;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 1em;
+}

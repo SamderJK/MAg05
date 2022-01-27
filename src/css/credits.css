@@ -1,0 +1,65 @@
+:root {
+    --white: #eef5f7;
+    --pink: #de3448;
+    --darkBlue: #265265;
+    --dark: #00071f;
+    --blueGreen: #2f616c;
+    --green: #b7ea32;
+    --orange: #FF5700;
+    --red: #ff0000;
+    --gray: #bababa;
+    --gradientPink: #ff007a;
+
+    --bg: var(--orange)
+}
+
+.creditBox {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 70%;
+    height: 70vh;
+    background: linear-gradient(45deg, #00ffff, #ff007a);
+    border-radius: 1em;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cbName {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.creditBox__Samuel #image {
+    background-image: url("../img/excuseMe.gif");
+}
+
+.creditBox__Jonas #image {
+    background-image: url("../img/hamster.gif");
+}
+
+.cbName #image{
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.textBox h2{
+    display: inline-block;
+    margin: 10px;
+}
+
+#watermark {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: translate(-5%, -5%);
+}

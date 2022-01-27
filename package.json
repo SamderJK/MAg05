@@ -1,0 +1,29 @@
+{
+  "name": "05-flugzeug",
+  "version": "1.0.0",
+  "description": "Dies ist die Loesung zur Aufgabe 05 (Flugzeug)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "MatheAG",
+    "Stochastik"
+  ],
+  "author": "SamderJK",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-builder": "^22.14.5",
+    "electron": "^16.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "build": {
+    "appId": "de.SamderJK.MAg05",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    }
+  }
+}

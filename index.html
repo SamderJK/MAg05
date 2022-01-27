@@ -1,0 +1,100 @@
+
+<!-- Das HTML-Dokument dient als Skelett für die App und wird eigentlich bei Websites verwendet -->
+
+<!-- HTML -->
+<!DOCTYPE html>
+
+<!-- Sprache auf Deutsch (Wenn diese auf eine andere Sprache eingestellt ist, als im Browser Standard ist, so (!zB) Übersetzt Google diese) -->
+<html lang="de">
+
+<!-- Bereich für Konfigurationen -->
+
+<head>
+    <!-- Voreinstellungen für Anzeige -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Hinzufügen von Schriftarten -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&amp;display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="./src/img/logo.svg">
+
+    <!-- Datei fürs Design -->
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <!-- Seitentitel -->
+    <title>Aufgabe 5</title>
+</head>
+
+<!-- "Körper"-Bereich, der später dargestellt wird -->
+
+<body>
+    <div>
+        <!-- Kopfzeile -->
+        <header>
+            <!-- Überschrift -->
+            <h2 class="logo">Aufgabe 5</h2>
+
+            <!-- Navigationsleiste -->
+            <nav>
+                <ul class="navigation">
+                    <li><a href="./credits.html">Credits</a></li>
+                </ul>
+            </nav>
+
+            <!-- Knopf zum Beenden -->
+            <button id="quit">Beenden</button>
+        </header>
+
+        <!-- Form / "Formular", hier findet alles statt -->
+        <div class="form">
+            <div class="inputBox">
+                <div class="submitBox">
+
+                    <!-- Eingabefeld für Durchläufe -->
+                    <input type="number" placeholder="Durchläufe" min="1" max="10000000" id="times">
+
+                    <!-- Knopf zum Bestätigen -->
+                    <button id="calc">Berechnen</button>
+                </div>
+
+                <!-- Feld zum Anzeigen -->
+                <div id="demo">
+                    <div id="gb">
+
+                        <!-- Tabelle -->
+                        <table>
+
+                            <!-- Überschriften der Tabelle -->
+                            <tr>
+                                <th>Durchläufe (N)<br>[100000 &lt; N &gt; 1000000]</th>
+                                <th>Rate</th>
+                            </tr>
+
+                            <!-- Werte -->
+                            <tr>
+                                <td id="tdTimes">0</td>
+                                <td id="tdRate">0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skript, indem die Daten etc verarbeitet werden -->
+    <script src="src/js/index.js"></script>
+
+    <script>
+        document.getElementById("quit").addEventListener("click", () => {
+            window.alert("Klicken Sie auf das X in der oberen Ecke rechts :D");
+        });
+    </script>
+</body>
+
+</html>
