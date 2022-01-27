@@ -6,12 +6,12 @@ MAg05 is a program that calculates stochastic operations based on challenge 5 of
 ## Challenge
 The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/airplane.pdf) but the whole file is written in German, so you may have to translate it for yourself.
 
-### Information given
+### Information
 * 22 days to choose an airplane
 * 1 offer everyday (only for this day)
 * does not know which plane is the best
 
-### Given idea
+### Idea
 
-## Technical details
+## Tech
 Our application is mainly written in JavaScript, CSS and HTML. It's just a web document transformed into an app for windows via electron.js
