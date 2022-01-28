@@ -3,7 +3,7 @@ MAg05 is a program that calculates stochastic operations based on challenge 5 of
 
 
 ## Challenge
-The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/airplane.pdf) but the whole document is written in German, so you may have to translate it for yourself.
+The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/airplane.pdf), but the whole document is written in German, so you may have to translate it for yourself.
 
 ### Information
 * Santa has 22 days to choose an airplane which has enough capacity that he can store all his presents at one time. Only one plane fits that description, but only the airline knows what the maximum capacity is.
@@ -36,7 +36,7 @@ Et voilà, that's the start value!
 To find out the chance to get the best airplane, there is one cool and simple idea. At first, you have to create a kind of counter and set it to 0.
 Then, you'll have to run the process multiple times, the amount of runs is labeled **N**.
 
-If the try succeeds, the counter increases by 1. At the end, there is an easy formular.
+If the try succeeds, the counter increases by 1. At the end, there is an easy formula.
 ```js
   // "p" stands for the probability.
   // "N" is the amount of runs.
