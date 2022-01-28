@@ -32,6 +32,9 @@ Et voilà, thats the start value!
 #### Examples
 Let's look at some examples.
 
-```js
 
+```js
+let startValue = (n) => {
+  return
+}
 ```
