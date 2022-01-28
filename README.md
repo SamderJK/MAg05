@@ -1,10 +1,11 @@
 # MAg05 &middot; ![npm version](https://img.shields.io/npm/v/electron.svg)
-MAg05 is a program that calculates stochastic operations based on challenge 5 of a [Matheon](https://www.matheon.de/index.php?&lang=en) math competition.
+MAg05 is a program that calculates stochastic operations based on a challenge of a [Matheon](https://www.matheon.de/index.php?&lang=en) math competition.
 
 
 ## Installation
 * Clone the project.
-* Install all dependencies
+* Install all dependencies.
+* Run the application.
 
 Open a new command line instance.
 ```
@@ -17,7 +18,7 @@ If there is an error, you can type `npm install` before you run `npm start`.
 
 The above method starts the application in development mode.
 Do the following steps if you want to install the app after that.
-| Note: The app's author is not a known publisher, so there may be a security warning. |
+| Note: The application's author is not a known publisher, so there may be a security warning. |
 | --- |
 
 Of course, you can analyse the source code if you want! :D
