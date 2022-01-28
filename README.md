@@ -30,4 +30,8 @@ After that you have to increase the above result by 1.
 Et voilà, thats the start value!
 
 #### Examples
-Let's look at some examples. In the following 
+Let's look at some examples.
+
+```js
+
+```
