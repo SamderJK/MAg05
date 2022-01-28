@@ -20,7 +20,7 @@ But why 8?
 Finding the start value is easy. Devide the **amount of days / airplanes (n)** by Euler's number and round it.
 
 ```
-22 / e = 8,0933477057717310751015229435521
+22 / e ≈ 8
 
 22 / e + 1 ≈ 9
 ```
@@ -31,11 +31,11 @@ After that you have to increase the above result by 1.
 Et voilà, thats the start value!
 
 ### Examples
-Let's look at some examples in javascript.
+Let's look at some examples in vanilla javascript to make this calculation happen.
 
 **Returning the start value (9 in default case)**
 ```js
-let startValue = (n) => {
+function startValue(n) {
   return Math.round(n / Math.E + 1);
 }
 ```
