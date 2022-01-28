@@ -10,6 +10,12 @@ The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/air
 * He is offered one plane a day and he can either take it or not. The offer is only available for 24 hours.
 
 ### Strategy
-| Amogus | Baka |
-| ---- | ---- |
-| Dababy | lmao |
+The perfect method to solve this problem is to wait for the first 8 planes to notice the highest capacity. As soon as there is a higher number after the first 8, Santa has to take the plane with that capacity.
+If it is the maximum capacity, Santa is good to go. If not, he has no chance to transport all presents.
+
+But why 8?
+Finding the start value is easy. Devide the **amount of days / airplanes (n)** by Euler's number and round it.
+
+```
+22 / e = 8,0933477057717310751015229435521
+```
