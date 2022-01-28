@@ -2,6 +2,29 @@
 MAg05 is a program that calculates stochastic operations based on challenge 5 of a [Matheon](https://www.matheon.de/index.php?&lang=en) math competition.
 
 
+## Installation
+* Clone the project.
+* Install all dependencies
+
+Open a new command line instance.
+```
+  mkdir MAg05 && cd MAg05
+  git clone https://github.com/SamderJK/MAg05.git
+  cd MAg05
+  npm start
+```
+If there is an error, you can type `npm install` before you run `npm start`.
+
+The above method starts the application in development mode.
+Do the following steps if you want to install the app after that.
+| Note: The app's author is not a known publisher, so there may be a security warning. |
+| --- |
+
+Of course, you can analyse the source code if you want! :D
+```
+  npm run dist
+```
+
 ## Challenge
 The challenge is linked [here](https://github.com/SamderJK/MAg05/blob/v1.0.1/airplane.pdf), but the whole document is written in German, so you may have to translate it for yourself.
 
