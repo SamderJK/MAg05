@@ -30,12 +30,12 @@ After that you have to increase the above result by 1.
 
 Et voilà, thats the start value!
 
-#### Examples
+### Examples
 Let's look at some examples.
 
-
+**Returning the start value (9 in default case)**
 ```js
 let startValue = (n) => {
-  return
+  return Math.round(n / Math.E + 1);
 }
 ```
