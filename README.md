@@ -17,7 +17,7 @@ If it is the maximum capacity, Santa is good to go. If not, he has no chance to 
 But why 8?
 
 ### Start value & first planes
-Finding the start value is easy. Divide the **amount of days / airplanes (n)** by Euler's number and round it.
+Finding the start value is easy. Divide the **amount of days or airplanes (n)** by Euler's number and round it.
 
 ```
 22 / e ≈ 8
