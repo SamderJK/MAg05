@@ -22,6 +22,7 @@ Finding the start value is easy. Divide the **amount of days or airplanes (n)** 
 ```
 22 / e ≈ 8
 
+# Start value
 22 / e + 1 ≈ 9
 ```
 
