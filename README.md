@@ -19,10 +19,11 @@ But why 8?
 ### Start value & first planes
 Finding the start value is easy. Divide the **amount of days or airplanes (n)** by Euler's number and round it.
 
-```
+```js
+// First planes
 22 / e ≈ 8
 
-# Start value
+// Start value
 22 / e + 1 ≈ 9
 ```
 
@@ -33,19 +34,19 @@ Et voilà, that's the start value!
 
 ## Probability (p)
 To find out the chance to get the best airplane, there is one cool and simple idea. At first, you have to create a kind of counter and set it to 0.
-Then, you'll have to run the process multiple times, the amount of runs is labeled as **N**.
+Then, you'll have to run the process multiple times, the amount of runs is labeled **N**.
 
 If the try succeeds, the counter increases by 1. At the end, there is an easy formular.
-```
-  # "p" stands for the probability.
-  # "N" is the amount of runs.
-  # "a" stands for the value of the counter.
+```js
+  // "p" stands for the probability.
+  // "N" is the amount of runs.
+  // "a" stands for the value of the counter.
 
   p = a / N * 100
 ```
 
 ### Examples
-Let's look at some examples in vanilla JavaScript to make this calculation happen.
+Let's look at some basic examples in vanilla JavaScript to make this calculation happen.
 
 **Returning the start value (9 in default case)**
 ```js
