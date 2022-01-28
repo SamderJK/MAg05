@@ -31,7 +31,7 @@ After that you have to increase the above result by 1.
 Et voilà, thats the start value!
 
 ### Examples
-Let's look at some examples.
+Let's look at some examples in javascript.
 
 **Returning the start value (9 in default case)**
 ```js
