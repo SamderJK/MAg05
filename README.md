@@ -1,3 +1,5 @@
+#gh-light-mode-only
+
 # MAg05 &middot; ![npm version](https://img.shields.io/npm/v/electron.svg)
 MAg05 is a program that calculates stochastic operations based on challenge 5 of a [Matheon](https://www.matheon.de/index.php?&lang=en) math competition.
 
@@ -29,6 +31,12 @@ The result shows the first planes for this process.
 After that you have to increase the above result by 1.
 
 Et voilà, thats the start value!
+
+## Propability
+To find out the chance to get the best airplane, there is one cool and simple idea. At first you have to create a kind of counter and set it to 0.
+Then, you'll have to run the process multiple times.
+
+If the try succeeds, the counter increases 
 
 ### Examples
 Let's look at some examples in vanilla javascript to make this calculation happen.
